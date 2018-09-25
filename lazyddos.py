@@ -18,6 +18,7 @@ def update():
     os.system("clear")
     os.system("sudo apt-get install gcc")
     os.system("sudo apt-get install figlet")
+    os.system("gcc xerxes.c -o xerxes")
 
 def DDOS():
     os.system("clear")
